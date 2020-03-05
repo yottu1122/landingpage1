@@ -824,9 +824,15 @@ footer {
 }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
-  .header{
-    width:400px;
-    height: 200px;
+  header {
+    background-image: url("../images/bootcanp1.png");
+    width: 430px;
+    height: 230px;
+    background-size: cover;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; */
   }
   
   .intro p {
