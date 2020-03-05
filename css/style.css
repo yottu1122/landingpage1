@@ -826,8 +826,8 @@ footer {
 @media only screen and (max-width: 992px) {
   header {
     background-image: url("../images/bootcanp1.png");
-    width: 430px;
-    height: 230px;
+    width: 100vw;
+    height: 75vw;
     background-size: cover;
     /* display: flex;
     justify-content: center;
