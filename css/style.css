@@ -835,6 +835,7 @@ footer {
   }
   #first{
     font-size: 20px;
+    letter-spacing: 10px;
   } 
 
   .intro {
@@ -944,6 +945,9 @@ footer {
   }
   .quote-bg-rect {
     display: none;
+  }
+  .footer-links{
+    margin-bottom: 20px;
   }
 }
 
