@@ -393,9 +393,7 @@ nav {
   /* text-align: center; */
   padding: 160px 0px;
 }
-/* #first{
-  text-align: center;
-} */
+
 
 .cover-photo{
   text-align: center;
@@ -835,6 +833,10 @@ footer {
   width: auto;
   height: auto;
   }
+  #first{
+    font-size: 10px;
+  } 
+
   .intro p {
     padding: 0px 50px;
   }
