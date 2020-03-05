@@ -302,7 +302,7 @@ li {
     4. Header
 -------------------------------------------------------------*/
 header {
-  background-image: url("../images/cover-img.png");
+  background-image: url("../images/bootcanp1.png");
   width: 100vw;
   height: 75vh;
   background-size: cover;
@@ -337,9 +337,9 @@ nav {
   left: 0;
   z-index: 999;
 }
-.darker-nav {
-  /* background-color: #1B1B1B; */
-}
+/* .darker-nav {
+  background-color: #1B1B1B;
+}  */
 .hero-img {
   position: absolute;
   z-index: -9999;
@@ -360,7 +360,7 @@ nav {
   -webkit-box-shadow: -8px 0px 10px 0px rgba(17,18,20,0.3);
   -moz-box-shadow: -8px 0px 10px 0px rgba(17,18,20,0.3);
   box-shadow: -8px 0px 10px 0px rgba(17,18,20,0.3);
-  text-align: center;
+  text-align: left;
   display: flex;
   align-items: center; /** Y-axis align **/
   justify-content: center; /** X-axis align **/
@@ -390,8 +390,15 @@ nav {
     5. Intro
 -------------------------------------------------------------*/
 .intro {
-  text-align: center;
+  /* text-align: center; */
   padding: 160px 0px;
+}
+/* #first{
+  text-align: center;
+} */
+
+.cover-photo{
+  text-align: center;
 }
 
 .represent{
@@ -417,8 +424,16 @@ nav {
   text-align: center;
   margin-bottom: 100px;
 }
-.service-box {
+
+.style-title{
   text-align: center;
+}
+
+.description-icon{
+  text-align: center;
+}
+.service-box {
+  /* text-align: center; */
   background-color: #fff;
   padding: 50px 10px 20px 10px;
   -webkit-box-shadow: 0px 0px 15px 0px rgba(27,27,27,0.1);
@@ -622,6 +637,11 @@ div.cont{
   padding: 80px 0px 0px 0px;
   position: relative;
 }
+
+.contact-description{
+  margin-top: 30px;
+}
+
 .team-box {
   text-align: center;
   background-color: #fff;
@@ -698,6 +718,17 @@ div.cont{
 .quote-right p:nth-child(2) {
   float: right;
 }
+
+.contribution_photo{
+  width: 800px;
+  height: 450px;
+}
+
+.support {
+  /* text-align: center; */
+  margin-bottom: 100px;
+}
+
 /*-----------------------------------------------------------
     10. Footer
 -------------------------------------------------------------*/
@@ -761,6 +792,7 @@ footer {
 }
 
 
+
 /*-----------------------------------------------------------
     11. Responsive
 -------------------------------------------------------------*/
@@ -820,6 +852,11 @@ footer {
   .quote-right {
     margin: 40px 0px 80px 0px;
   }
+  .contribution_photo{
+    width: 450px;
+    height: 280px;
+  }
+
   footer {
     text-align: center;
   }
@@ -882,7 +919,7 @@ footer {
 
 .btn-stitch {
   display: inline-block;
-  padding: 0.5em 1em;
+  padding: 1em 8em;
   text-decoration: none;
   background: #3cb371;
   color: #FFF;
@@ -891,7 +928,7 @@ footer {
   border: dashed 1px #FFF;
   margin-top: 30px;
   margin-bottom: 30px;
-  margin-left: 25px;
+  margin-left: 20px;
 }
 
 .btn-stitch:hover {
