@@ -774,6 +774,7 @@ footer {
   border-radius: 25px;
   font-weight: 600;
   border: 1px solid #3cb371;
+  color: #FFF;
 }
 .footer-btn {
   margin-top: 45px;
@@ -785,6 +786,7 @@ footer {
 }
 .social {
   margin-top: 50px;
+  text-align: right;
 }
 .social ul li {
   display: inline-block;
@@ -822,6 +824,11 @@ footer {
 }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
+  .header{
+    width:400px;
+    height: 200px;
+  }
+  
   .intro p {
     padding: 0px 50px;
   }
@@ -853,8 +860,13 @@ footer {
     margin: 40px 0px 80px 0px;
   }
   .contribution_photo{
-    width: 450px;
-    height: 280px;
+    width: 330px;
+    height: 200px;
+  }
+
+
+  .social {
+    text-align: center;
   }
 
   footer {
@@ -921,22 +933,32 @@ footer {
   display: inline-block;
   padding: 1em 8em;
   text-decoration: none;
-  background: #3cb371;
-  color: #FFF;
+  background: #FFF;
+  color: #3cb371;
   border-radius: 4px;
-  box-shadow: 0px 0px 0px 5px #3cb371;
-  border: dashed 1px #FFF;
+  box-shadow: 0px 0px 0px 5px #FFF;
+  border: dashed 1px #3cb371;
   margin-top: 30px;
   margin-bottom: 30px;
   margin-left: 20px;
 }
 
 .btn-stitch:hover {
-  border: dotted 1px #FFF;
+  border: dotted 1px #3cb371;
+  background: #3cb371;
+  color: #FFF;
+
 }
 
-a{
+.btn-stitch:hover a {
+  border: dotted 1px #3cb371;
+  background: #3cb371;
   color: #FFF;
+  
+}
+
+.btn-description{
+  color: #3cb371;
 }
 
 .icon{
