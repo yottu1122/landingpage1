@@ -829,12 +829,12 @@ footer {
     width: 100vw;
     height: 75vw;
     background-size: cover;
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center; */
   }
   
+  .represent{
+  width: auto;
+  height: auto;
+  }
   .intro p {
     padding: 0px 50px;
   }
@@ -970,8 +970,4 @@ footer {
 .icon{
   width: 70px;
   height: 70px;
-}
-
-.footer-links{
-  /* margin-left: 150px; */
 }
