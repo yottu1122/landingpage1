@@ -136,8 +136,8 @@ ul li {
 }
 h1,
 .h1 {
-  font-size: 1.3rem;
-  color: #fbfbfb;
+  font-size: 1.7rem;
+  color: #3cb371;
   letter-spacing: 1rem;
   margin-bottom: 30px;
   line-height: 2.5rem;
@@ -301,7 +301,7 @@ li {
 /*-----------------------------------------------------------
     4. Header
 -------------------------------------------------------------*/
-header {
+/* header {
   background-image: url("../images/bootcanp1.png");
   width: 100vw;
   height: 75vh;
@@ -310,7 +310,7 @@ header {
   justify-content: center;
   align-items: center;
   text-align: center;
-}
+} */
 .home-logo{
   width: 100px;
   height: 35px;
@@ -386,6 +386,14 @@ nav {
 .hero {
   margin-top: 50px;
 }
+
+.subtitle{
+  text-align: center;
+  letter-spacing: 5px;
+  color: #90ee90;
+  font-size: 20px;
+  margin-top: 70px;
+}
 /*-----------------------------------------------------------
     5. Intro
 -------------------------------------------------------------*/
@@ -405,7 +413,7 @@ nav {
 }
 
 .intro p {
-  margin-top: 70px;
+  margin-top: 40px;
   font-size: 1rem;
   line-height: 2rem;
   padding: 0px 200px;
@@ -727,6 +735,19 @@ div.cont{
   margin-bottom: 100px;
 }
 
+.supportperson{
+  text-align: center;
+}
+
+.supportperson-photo{
+  width: 300px;
+  height: 300px;
+}
+
+
+
+
+
 /*-----------------------------------------------------------
     10. Footer
 -------------------------------------------------------------*/
@@ -822,12 +843,12 @@ footer {
 }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
-  header {
+  /* header {
     background-image: url("../images/bootcanp1.png");
     width: 100vw;
     height: 75vw;
     background-size: cover;
-  }
+  } */
   
   .represent{
   width: auto;
